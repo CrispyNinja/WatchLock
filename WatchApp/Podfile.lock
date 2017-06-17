@@ -1,0 +1,15 @@
+PODS:
+  - CocoaAsyncSocket (7.6.0)
+  - RNCryptor-objc (3.0.2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - RNCryptor-objc
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  RNCryptor-objc: 6d18b2e4297c8f4a71a295492366313a3245d0ae
+
+PODFILE CHECKSUM: 101ab0d8a94962a0d5a93bc08a1cd6b196523458
+
+COCOAPODS: 1.2.0
