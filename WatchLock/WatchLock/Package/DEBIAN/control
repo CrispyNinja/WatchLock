@@ -1,0 +1,17 @@
+Package: com.AkASlow.WatchLock
+Name: WatchLock
+Version: 1.0-1
+Description: Lock your phone from your Apple Watch!
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: AkASlow
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

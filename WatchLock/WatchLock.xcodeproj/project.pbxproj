@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708B1AE11EC5EE7C00323D0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B1AE01EC5EE7B00323D0C /* Foundation.framework */; };
+		708B1AF21EC5EE7C00323D0C /* WatchLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 708B1AF11EC5EE7C00323D0C /* WatchLock.mm */; settings = {COMPILER_FLAGS = "-w"; }; };
+		708B1AFC1EC5EE8300323D0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B1AFB1EC5EE8300323D0C /* UIKit.framework */; };
+		708B1AFE1EC5EEA700323D0C /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B1AFD1EC5EEA700323D0C /* libsubstrate.dylib */; };
+		70952CA71EC6F1410094D0C9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70952CA61EC6F1410094D0C9 /* NotificationCenter.framework */; };
+		70952CAA1EC6F2680094D0C9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7088F1791EC682B80053D6A4 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7088F1791EC682B80053D6A4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		708B1ADD1EC5EE7B00323D0C /* WatchLock.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WatchLock.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		708B1AE01EC5EE7B00323D0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		708B1AE51EC5EE7C00323D0C /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		708B1AE61EC5EE7C00323D0C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		708B1AE81EC5EE7C00323D0C /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		708B1AEF1EC5EE7C00323D0C /* WatchLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchLock-Prefix.pch"; sourceTree = "<group>"; };
+		708B1AF01EC5EE7C00323D0C /* WatchLock.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = WatchLock.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		708B1AF11EC5EE7C00323D0C /* WatchLock.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WatchLock.mm; sourceTree = "<group>"; };
+		708B1AF51EC5EE7C00323D0C /* WatchLock.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WatchLock.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WatchLock.plist; sourceTree = "<group>"; };
+		708B1AFB1EC5EE8300323D0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		708B1AFD1EC5EEA700323D0C /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		708B1B111EC6450C00323D0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70952CA61EC6F1410094D0C9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708B1AD91EC5EE7B00323D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70952CAA1EC6F2680094D0C9 /* CoreFoundation.framework in Frameworks */,
+				70952CA71EC6F1410094D0C9 /* NotificationCenter.framework in Frameworks */,
+				708B1AFC1EC5EE8300323D0C /* UIKit.framework in Frameworks */,
+				708B1AE11EC5EE7C00323D0C /* Foundation.framework in Frameworks */,
+				708B1AFE1EC5EEA700323D0C /* libsubstrate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708B1AD21EC5EE7B00323D0C = {
+			isa = PBXGroup;
+			children = (
+				708B1AE21EC5EE7C00323D0C /* WatchLock */,
+				708B1ADF1EC5EE7B00323D0C /* Frameworks */,
+				708B1ADE1EC5EE7B00323D0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708B1ADE1EC5EE7B00323D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B1ADD1EC5EE7B00323D0C /* WatchLock.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B1ADF1EC5EE7B00323D0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70952CA61EC6F1410094D0C9 /* NotificationCenter.framework */,
+				7088F1791EC682B80053D6A4 /* CoreFoundation.framework */,
+				708B1B111EC6450C00323D0C /* CoreGraphics.framework */,
+				708B1AFD1EC5EEA700323D0C /* libsubstrate.dylib */,
+				708B1AFB1EC5EE8300323D0C /* UIKit.framework */,
+				708B1AE01EC5EE7B00323D0C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		708B1AE21EC5EE7C00323D0C /* WatchLock */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AF01EC5EE7C00323D0C /* WatchLock.xm */,
+				708B1AF11EC5EE7C00323D0C /* WatchLock.mm */,
+				708B1AE31EC5EE7C00323D0C /* Package */,
+				708B1AE71EC5EE7C00323D0C /* Supporting Files */,
+			);
+			path = WatchLock;
+			sourceTree = "<group>";
+		};
+		708B1AE31EC5EE7C00323D0C /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AE41EC5EE7C00323D0C /* DEBIAN */,
+				708B1AE91EC5EE7C00323D0C /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		708B1AE41EC5EE7C00323D0C /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AE51EC5EE7C00323D0C /* control.txt */,
+				708B1AE61EC5EE7C00323D0C /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		708B1AE71EC5EE7C00323D0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AE81EC5EE7C00323D0C /* PackageVersion.plist */,
+				708B1AEF1EC5EE7C00323D0C /* WatchLock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		708B1AE91EC5EE7C00323D0C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AF31EC5EE7C00323D0C /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		708B1AF31EC5EE7C00323D0C /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AF41EC5EE7C00323D0C /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		708B1AF41EC5EE7C00323D0C /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				708B1AF51EC5EE7C00323D0C /* WatchLock.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		708B1ADA1EC5EE7B00323D0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		708B1ADC1EC5EE7B00323D0C /* WatchLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708B1AF81EC5EE7C00323D0C /* Build configuration list for PBXNativeTarget "WatchLock" */;
+			buildPhases = (
+				708B1AD71EC5EE7B00323D0C /* ShellScript */,
+				708B1AD81EC5EE7B00323D0C /* Sources */,
+				708B1AD91EC5EE7B00323D0C /* Frameworks */,
+				708B1ADA1EC5EE7B00323D0C /* Headers */,
+				708B1ADB1EC5EE7B00323D0C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchLock;
+			productName = WatchLock;
+			productReference = 708B1ADD1EC5EE7B00323D0C /* WatchLock.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708B1AD31EC5EE7B00323D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					708B1ADC1EC5EE7B00323D0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E29W98JU56;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 708B1AD61EC5EE7B00323D0C /* Build configuration list for PBXProject "WatchLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 708B1AD21EC5EE7B00323D0C;
+			productRefGroup = 708B1ADE1EC5EE7B00323D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708B1ADC1EC5EE7B00323D0C /* WatchLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		708B1AD71EC5EE7B00323D0C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		708B1ADB1EC5EE7B00323D0C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708B1AD81EC5EE7B00323D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708B1AF21EC5EE7C00323D0C /* WatchLock.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		708B1AF61EC5EE7C00323D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		708B1AF71EC5EE7C00323D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		708B1AF91EC5EE7C00323D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = E29W98JU56;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatchLock/WatchLock-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 10.0.1.7;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Debug;
+		};
+		708B1AFA1EC5EE7C00323D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = E29W98JU56;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatchLock/WatchLock-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 10.0.1.7;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708B1AD61EC5EE7B00323D0C /* Build configuration list for PBXProject "WatchLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708B1AF61EC5EE7C00323D0C /* Debug */,
+				708B1AF71EC5EE7C00323D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708B1AF81EC5EE7C00323D0C /* Build configuration list for PBXNativeTarget "WatchLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708B1AF91EC5EE7C00323D0C /* Debug */,
+				708B1AFA1EC5EE7C00323D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 708B1AD31EC5EE7B00323D0C /* Project object */;
+}
